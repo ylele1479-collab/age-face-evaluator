@@ -2,6 +2,14 @@
 
 Windows 本地人脸年龄区间评估软件，包含批量图片推断、人工标注复查、双模型对比、Excel 导出及独立准确率统计脚本。发布包包含 Python 运行环境、所需依赖和模型权重，解压后即可启动。
 
+## 实际导入与推断效果
+
+下图由程序实际导入 NASA 公开宇航员照片、执行双模型推理后截取，包含人脸框、主模型预测、参考年龄区间和第二模型结果。示例主模型输出约 23.1 岁，第二模型约 14.0 岁；这是实际运行输出，**不是照片人物的真实年龄，也不能用作准确率证明**。截图特意保留模型分歧，供了解界面和工具局限。
+
+![实际导入照片并完成双模型推理](docs/images/age-evaluation-result.png)
+
+演示素材来源：[scikit-image 的 NASA astronaut 样例](https://github.com/scikit-image/scikit-image/blob/v0.19.3/skimage/data/astronaut.png)。来源与重现方法见 [演示图片说明](docs/演示图片说明.md)。未使用私人照片或个人标注截图。
+
 ## 下载与启动
 
 **[下载完整可运行版](https://github.com/ylele1479-collab/age-face-evaluator/releases/latest)**，选择 `AgeFaceEvaluator-Windows-Full-2026.10.29.zip`。
