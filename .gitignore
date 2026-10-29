@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.partial
+runtime/
+models/
+data/
+audit-output/

@@ -1,0 +1,7 @@
+* text=auto
+*.bat text eol=crlf
+*.exe -text
+*.onnx -text
+*.wasm -text
+*.zip -text
+*.whl -text
